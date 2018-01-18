@@ -14,12 +14,14 @@ function cu_section_page_bundle_install() {
     'field_inner_content_left' => 0,
     'field_inner_content_right' => 0,
     'field_content_bottom' => 'field_content_bottom',
+    'field_post_title' => 'field_post_title',
+    'field_post_title_wide' => 'field_post_title_wide',
   );
   foreach ($settings as $key => $setting) {
     variable_set($key, $setting);
   }
   $types = array(
-    'collection_item',
+    'section_page',
   );
   foreach ($types as $key => $type) {
     $var = 'express_layout_type_' . $type;
