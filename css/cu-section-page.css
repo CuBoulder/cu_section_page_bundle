@@ -6,7 +6,7 @@
 .section-page-sections .block-section .section-next-wrapper .section-next { display: inline-block; margin: 0 auto; font-size: 48px; }
 @media screen and (min-width: 768px) { .section-page-sections .block-section .section-next-wrapper .section-next { font-size: 64px; } }
 
-.node-type-section-page .section-page-hide-title .breadcrumb-wrapper, .node-type-section-page .section-page-hide-title .main-title-wrapper, .node-type-section-page .section-page-hide-title .page-title-wrapper { border: 0; height: 1px; overflow: hidden; padding: 0; position: absolute !important; width: 1px !important; white-space: nowrap; }
+.node-type-section-page .section-page-hide-title .breadcrumb-wrapper, .node-type-section-page .section-page-hide-title .main-title-wrapper, .node-type-section-page .section-page-hide-title .page-title-wrapper { border: 0; height: 1px !important; overflow: hidden; padding: 0 !important; position: absolute !important; width: 1px !important; white-space: nowrap; }
 .node-type-section-page .section-page-hide-title #main, .node-type-section-page .section-page-hide-title #main-content-wrapper { padding: 0; }
 .node-type-section-page .section-page-hide-title .section-page-body { padding: 20px 0; }
 .node-type-section-page .section-page-hide-title #main .region-content > .block:first-child { margin-top: 20px; }
