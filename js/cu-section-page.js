@@ -33,7 +33,7 @@
          sectionPageActive(id);
          // $('.block-section-content', this).addClass('fadeIn');
        }, {
-         offset: 100 //
+         offset: 80 //
        })
        .waypoint(function(direction) {
          var id = $(this).attr('id');
@@ -44,7 +44,7 @@
          var id = $(this).attr('id');
          sectionPageActive(id);
        }, {
-         offset: function() {  return -$(this).height() + 100; }
+         offset: function() {  return -$(this).height() + 80; }
        });
        // $('.section-page-sections .block-section-content:first').addClass('fadeIn');
     });
