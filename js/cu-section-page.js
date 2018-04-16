@@ -124,7 +124,9 @@
       // Update url to add which section is being viewed.
       var section = $('#section-anchor-' + id).attr('name');
       var url = [location.protocol, '//', location.host, location.pathname].join('')
-      history.pushState('', document.title, url + '#' + section);
+
+      // Removing push state because of tracking pixel issues.
+      //history.pushState('', document.title, url + '#' + section);
     }
 
   });
