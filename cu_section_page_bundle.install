@@ -4,7 +4,7 @@ function cu_section_page_bundle_install() {
   $settings['express_layout_settings_section_page'] = array(
     'field_feature_layout_toggle' => 0,
     'field_feature_title_image' => 'field_feature_title_image',
-    'field_footer' => 'field_footer',
+    'field_footer' => 0,
     'field_header' => 'field_header',
     'field_intro' => 'field_intro',
     'field_sidebar_first' => 0,
@@ -39,4 +39,11 @@ function cu_section_page_bundle_enable() {
     ->fields(array('weight' => 1))
     ->condition('name', 'cu_section_page_bundle', '=')
     ->execute();
+}
+
+/**
+ * Update available layout fields.
+ */
+function cu_section_page_bundle_update_7001() {
+  cu_section_page_bundle_install();
 }

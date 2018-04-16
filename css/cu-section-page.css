@@ -1,3 +1,5 @@
+.node-type-section-page #main { padding-bottom: 0; }
+
 .section-page-sections { position: relative; }
 .section-page-sections .block-section { overflow: hidden; width: 100vw; position: relative; left: 50%; right: 50%; margin-left: -50vw; margin-right: -50vw; display: flex; align-items: center; padding-bottom: 72px; }
 .section-page-size-full .section-page-sections .block-section { min-height: 100vh; }
