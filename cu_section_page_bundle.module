@@ -107,6 +107,10 @@ function cu_section_page_bundle_secure_permissions($role) {
       'edit any section_page content',
       'edit own section_page content',
     ),
+    'edit_only_temp' => array(
+      'edit any section_page content',
+      'edit own section_page content',
+    ),
     'developer' => array(
       'create section_page content',
       'delete any section_page content',
@@ -116,6 +120,13 @@ function cu_section_page_bundle_secure_permissions($role) {
     ),
     'edit_my_content' => array(),
     'site_owner' => array(
+      'create section_page content',
+      'delete any section_page content',
+      'delete own section_page content',
+      'edit any section_page content',
+      'edit own section_page content',
+    ),
+    'site_editor' => array(
       'create section_page content',
       'delete any section_page content',
       'delete own section_page content',
