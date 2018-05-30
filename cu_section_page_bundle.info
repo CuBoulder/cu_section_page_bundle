@@ -1,6 +1,10 @@
 name = Section Page
 core = 7.x
 package = CU Section Page Bundle
+description = 
+version = 7.x-1.1
+project = cu_section_page_bundle
+
 dependencies[] = ctools
 dependencies[] = entityreference
 dependencies[] = express_field_bases
