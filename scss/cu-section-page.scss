@@ -69,7 +69,8 @@ $cugold: #cfb87c;
   .section-page-hide-title {
     .breadcrumb-wrapper,
     .main-title-wrapper,
-    .page-title-wrapper {
+    .page-title-wrapper,
+    h1.page-title {
       @include element-invisible;
     }
     #main,
